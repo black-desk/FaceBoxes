@@ -6,17 +6,15 @@
 extern "C" {
 #endif
 
-struct SeetaFaceInfo
-{
-    SeetaRect pos;
-    float score;
-};
+  struct SeetaFaceInfo {
+      SeetaRect pos;
+      float     score;
+  };
 
-struct SeetaFaceInfoArray
-{
-    struct SeetaFaceInfo *data;
-    int size;
-};
+  struct SeetaFaceInfoArray {
+      struct SeetaFaceInfo *data;
+      int                   size;
+  };
 
 #ifdef __cplusplus
 }
