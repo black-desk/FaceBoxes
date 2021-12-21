@@ -1,13 +1,12 @@
+#include "FaceDetector.h"
 
-#include "seeta/FaceDetector.h"
-
-#include <api/cpp/module.h>
-#include <api/cpp/tensorstack.h>
 #include <orz/codec/json.h>
 #include <orz/io/dir.h>
 #include <orz/io/i.h>
 #include <orz/io/jug/jug.h>
 #include <orz/utils/log.h>
+#include <tennis/cpp/module.h>
+#include <tennis/cpp/tensorstack.h>
 
 #include <array>
 #include <cmath>

@@ -5,9 +5,9 @@
 #ifndef INC_SEETA_FACEDETECTOR_H
 #define INC_SEETA_FACEDETECTOR_H
 
-#include "seeta/CFaceInfo.h"
-#include "seeta/Common/Struct.h"
-#include "seeta/SeetaFaceDetectorConfig.h"
+#include "CFaceInfo.h"
+#include "Common/Struct.h"
+#include "SeetaFaceDetectorConfig.h"
 
 namespace seeta
 {
